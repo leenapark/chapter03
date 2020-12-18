@@ -19,6 +19,7 @@ public class StringApp2 {
 		System.out.println(a);
 		
 		System.out.println("==trim===============");
+		
 		//trim()
 		a = a.trim();
 		System.out.println(a);

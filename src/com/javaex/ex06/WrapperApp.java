@@ -29,6 +29,7 @@ public class WrapperApp {
 		
 		//이상한점↓
 		//"13579" --> 13579 숫자로 변경 하고 싶을 때
+		//문자열  --> 정수로 변형
 		//메모리에 올려야 .parseInt 사용 가능 - Integer 박싱 사용 (int 사용x)
 		Integer no03 = new Integer("131313");	//.parseInt를 사용하려고 의미 없는 메모리를 올려줌
 		int result01 = no03.parseInt("13579");
